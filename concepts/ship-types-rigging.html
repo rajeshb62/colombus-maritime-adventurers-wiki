@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Ship Types, Rigging, and Construction — 16th 17th century</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Colombus and Maritime Adventurers"/><meta property="og:title" content="Ship Types, Rigging, and Construction — 16th 17th century"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Ship Types, Rigging, and Construction — 16th 17th century"/><meta name="twitter:description" content="Ship Types, Rigging, and Construction The vessels, rigging, and construction practices of Columbus’s four voyages as described in Irving’s History of the Life and Voyages of Christopher Columbus."/><meta property="og:description" content="Ship Types, Rigging, and Construction The vessels, rigging, and construction practices of Columbus’s four voyages as described in Irving’s History of the Life and Voyages of Christopher Columbus."/><meta property="og:image:alt" content="Ship Types, Rigging, and Construction The vessels, rigging, and construction practices of Columbus’s four voyages as described in Irving’s History of the Life and Voyages of Christopher Columbus."/><meta property="og:image" content="https://rajeshb62.github.io/colombus-maritime-adventurers-wiki/static/og-image.png"/><meta property="og:image:url" content="https://rajeshb62.github.io/colombus-maritime-adventurers-wiki/static/og-image.png"/><meta name="twitter:image" content="https://rajeshb62.github.io/colombus-maritime-adventurers-wiki/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="rajeshb62.github.io/colombus-maritime-adventurers-wiki"/><meta property="og:url" content="https://rajeshb62.github.io/colombus-maritime-adventurers-wiki/concepts/ship-types-rigging"/><meta property="twitter:url" content="https://rajeshb62.github.io/colombus-maritime-adventurers-wiki/concepts/ship-types-rigging"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Ship Types, Rigging, and Construction The vessels, rigging, and construction practices of Columbus’s four voyages as described in Irving’s History of the Life and Voyages of Christopher Columbus."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL3JhamVzaGJoYXQvaGVybWVzL2hpc3RvcnkvX2RlcGxveWVyL3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://rajeshb62.github.io/colombus-maritime-adventurers-wiki/index.xml"/></head><body data-slug="concepts/ship-types-rigging"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Colombus and Maritime Adventurers</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../concepts/">concepts</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Ship Types, Rigging, and Construction</a></div></nav><h1 class="article-title">Ship Types, Rigging, and Construction</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-03T18:30:00.000Z">May 04, 2026</time><span>19 min read</span></p><ul class="tags"><li><a href="../tags/[shipbuilding" class="internal tag-link">[shipbuilding</a></li><li><a href="../tags/caravel" class="internal tag-link">caravel</a></li><li><a href="../tags/carrack" class="internal tag-link">carrack</a></li><li><a href="../tags/nao" class="internal tag-link">nao</a></li><li><a href="../tags/rigging" class="internal tag-link">rigging</a></li><li><a href="../tags/lateen" class="internal tag-link">lateen</a></li><li><a href="../tags/square-rig" class="internal tag-link">square-rig</a></li><li><a href="../tags/tonnage" class="internal tag-link">tonnage</a></li><li><a href="../tags/construction" class="internal tag-link">construction</a></li><li><a href="../tags/careening" class="internal tag-link">careening</a></li><li><a href="../tags/shipworm" class="internal tag-link">shipworm</a></li><li><a href="../tags/dugout-canoe" class="internal tag-link">dugout-canoe</a></li><li><a href="../tags/columbus" class="internal tag-link">columbus</a></li><li><a href="../tags/irving]" class="internal tag-link">irving]</a></li></ul></div></div><article class="popover-hint"><h1 id="ship-types-rigging-and-construction">Ship Types, Rigging, and Construction<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ship-types-rigging-and-construction" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<blockquote>
+<p>The vessels, rigging, and construction practices of Columbus’s four voyages as described in Irving’s <em>History of the Life and Voyages of Christopher Columbus</em>. This page covers caravel and carrack/nao design, lateen versus square rig, construction materials and tonnage, shipworm damage, careening and field repair, and the remarkable dugout canoes of the Caribbean.</p>
+</blockquote>
+<hr/>
+<h2 id="caravel-design">Caravel Design<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#caravel-design" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The <strong>caravel</strong> was a small, highly manoeuvrable vessel developed by Portuguese shipbuilders in the 15th century under Prince Henry the Navigator, refined through decades of coastwise exploration along Africa. Irving recounts that the caravel’s design was crucial to the Age of Discovery: its shallow draught allowed it to enter rivers and harbours inaccessible to larger ships, and its rigging options gave it exceptional tactical flexibility.^[source: irving_columbus_full.txt, Book I, Ch. III]</p>
+<p>Two of the three ships on Columbus’s first voyage — the <em>Pinta</em> and the <em>Niña</em> — were caravels. The <em>Pinta</em> was carvel-built and square-rigged on the fore and main masts with a lateen mizzen, making her the fastest of the three vessels. The <em>Niña</em> (originally named the <em>Santa Clara</em>) started the voyage as a <em>caravela latina</em> — lateen-rigged on all three masts.^[source: irving_columbus_full.txt, Book II, Ch. IX]</p>
+<h3 id="lateen-rig-windward-ability">Lateen Rig: Windward Ability<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lateen-rig-windward-ability" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The <strong>lateen</strong> (or <em>latine</em>) sail, a triangular sail set on a long yard at a sharp angle to the mast, gave the caravel its signature capability: it could sail closer to the wind than square-rigged vessels. This windward ability was essential for coastal exploration, allowing caravels to tack upwind along African coastlines and navigate narrow channels with shifting winds. Portuguese explorers had relied on this feature for decades before Columbus.^[source: irving_columbus_full.txt, Book I, Ch. III]</p>
+<p>The lateen rig, however, had disadvantages. It required a larger crew to handle the long yard — the <em>Niña</em> carried about 20 men, smaller than the <em>Pinta</em>’s 26 — and its performance on long downwind passages was inferior to a square rig. The yard itself was heavy and cumbersome to shift when tacking.</p>
+<h3 id="square-rig-downwind-speed">Square Rig: Downwind Speed<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#square-rig-downwind-speed" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Square sails — rectangular sails set on yards perpendicular to the keel — excel at running before the wind. They catch the following breeze efficiently and require less manual handling than lateen sails on long ocean crossings. On the Atlantic crossing, where the northeast trade winds blow steadily from astern, square rigs offered superior speed and required less constant attention from the crew.^[source: irving_columbus_full.txt, Book III, Ch. I]</p>
+<h3 id="the-niña-re-rigged-at-the-canary-islands">The Niña Re-rigged at the Canary Islands<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#the-niña-re-rigged-at-the-canary-islands" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The most instructive example of rigging flexibility is the <em>Niña</em>’s conversion. When the fleet reached the Canary Islands in August–September 1492, Columbus ordered the <em>Niña</em>’s rig altered from lateen to square:</p>
+<blockquote>
+<p>“The latine sails of the Nina were also altered into square sails, that she might work more steadily and securely, and be able to keep company with the other vessels.”^[source: irving_columbus_full.txt, Book III, Ch. I, p. 5774]</p>
+</blockquote>
+<p>This re-rigging transformed the <em>Niña</em> from a <em>caravela latina</em> (all lateen) to a <em>caravela redonda</em> (square on fore and main masts, lateen on mizzen). The change improved her performance on the open Atlantic crossing, where steady following winds made the lateen rig less advantageous. After the wreck of the <em>Santa Maria</em>, Columbus transferred his flag to the <em>Niña</em> for the perilous return voyage, and she proved remarkably seaworthy, weathering a violent storm off the Azores that nearly sank her.^[source: irving_columbus_full.txt, Book III, Ch. I, p. 5771-5777; Book V, Ch. II]</p>
+<hr/>
+<h2 id="carrack--nao-design">Carrack / Nao Design<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#carrack--nao-design" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The <strong>carrack</strong> (Spanish <em>nao</em>, meaning simply “ship”) was a larger, heavier vessel built primarily for cargo and long-distance voyaging. The <em>Santa Maria</em> — Columbus’s flagship on the first voyage — was a nao of approximately 100–120 tons burden. Irving notes that on September 11, 1492, when about 150 leagues west of Ferro, the expedition encountered a fragment of a ship’s mast that “appeared to have belonged to a vessel of about a hundred and twenty tons burden” — close to the <em>Santa Maria</em>’s own size.^[source: irving_columbus_full.txt, Book III, Ch. II, p. 5905]</p>
+<h3 id="hull-shape-and-freeboard">Hull Shape and Freeboard<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#hull-shape-and-freeboard" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The carrack was distinguished from the caravel by its <strong>rounder hull</strong> — a fuller, more barrel-shaped cross-section that increased cargo capacity at the expense of speed. Where the caravel was lean and swift, the carrack was broad and capacious. The <em>Santa Maria</em> had a deeper draught and substantially <strong>higher freeboard</strong> (the distance between the waterline and the deck), which made her drier in heavy seas but also slower and less manoeuvrable. The carrack’s higher sides made it harder for native canoes to board or attack — an advantage in the Caribbean, where the <em>Santa Maria</em>’s decks stood well above the water.^[source: irving_columbus_full.txt, Book IV, Ch. VIII–X]</p>
+<h3 id="forecastle-and-aftercastle">Forecastle and Aftercastle<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#forecastle-and-aftercastle" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Carracks were built with prominent <strong>forecastles</strong> and <strong>aftercastles</strong> (or <em>sterncastles</em>) — elevated superstructures at the bow and stern. The aftercastle housed the captain’s cabin and the steering platform; the forecastle provided a defensive fighting platform and shelter for the crew. These castles gave the carrack its characteristic silhouette — a high, bluff bow and an even higher stern — and contributed to its structural strength, but also made it heavy in the helm and susceptible to weather helm (a tendency to turn into the wind).^[source: irving_columbus_full.txt, Book III, Ch. I]</p>
+<h3 id="square-rig-on-fore-and-main-lateen-mizzen">Square Rig on Fore and Main, Lateen Mizzen<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#square-rig-on-fore-and-main-lateen-mizzen" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The <em>Santa Maria</em> was rigged with square sails on the fore and main masts, a lateen sail on the mizzen mast, and a <strong>bowsprit</strong> with a small square sail (the <em>spritsail</em>). This was the standard rig for a large oceangoing vessel of the period: the two square sails provided the driving force before the wind, while the lateen mizzen helped balance the helm and improved manoeuvrability. The bowsprit sail added a small increment of speed and helped the ship stay before the wind. Irving describes her as a decked ship with heavy, sluggish handling — a characteristic that contributed directly to her wreck on Christmas Eve 1492 off the coast of Hispaniola.^[source: irving_columbus_full.txt, Book III, Ch. I; Book IV, Ch. VIII]</p>
+<hr/>
+<h2 id="differences-between-caravel-and-carrack">Differences Between Caravel and Carrack<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#differences-between-caravel-and-carrack" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Feature</th><th>Caravel (<em>Pinta</em>, <em>Niña</em>)</th><th>Carrack / Nao (<em>Santa Maria</em>)</th></tr></thead><tbody><tr><td><strong>Hull shape</strong></td><td>Lean, shallow-draught</td><td>Round, full-bodied</td></tr><tr><td><strong>Freeboard</strong></td><td>Low</td><td>High</td></tr><tr><td><strong>Cargo capacity</strong></td><td>Limited (exploration)</td><td>Ample (cargo, supplies)</td></tr><tr><td><strong>Speed</strong></td><td>Fast, especially downwind</td><td>Slow, heavy</td></tr><tr><td><strong>Manoeuvrability</strong></td><td>Excellent; could tack well</td><td>Poor; sluggish in stays</td></tr><tr><td><strong>Rig options</strong></td><td>Flexible (lateen or square)</td><td>Predominantly square</td></tr><tr><td><strong>Crew size</strong></td><td>~20–26</td><td>~40</td></tr><tr><td><strong>Best use</strong></td><td>Exploration, coastal work</td><td>Long-distance cargo, flagship</td></tr><tr><td><strong>Draught</strong></td><td>Shallow (could enter rivers)</td><td>Deeper (required deeper harbours)</td></tr></tbody></table></div>
+<p>The caravel’s shallower draught allowed it to enter rivers and harbours inaccessible to the larger carrack — a critical advantage when exploring the shallow coasts and river mouths of the New World. The carrack’s higher freeboard and greater cargo capacity made it better suited as a flagship and supply vessel, but its deeper draught and sluggish handling made it more vulnerable to grounding — which proved fatal for the <em>Santa Maria</em>.</p>
+<hr/>
+<h2 id="tonnage">Tonnage<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#tonnage" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The ships of Columbus’s first voyage were strikingly small by modern standards. Irving remarks on their small size as a mark of Columbus’s audacity: “To traverse this vast Atlantic, with three small barks, the largest of which did not exceed the size of an ordinary river craft of the present day.”^[source: irving_columbus_full.txt, Book III, Ch. I]</p>
+<p>All three vessels were approximately <strong>100 tons burden</strong>, though the <em>Santa Maria</em> may have been slightly larger at 100–120 tons. This measure of tonnage referred to the ship’s cargo-carrying capacity — the number of tuns (large casks of wine) the vessel could stow in its hold. The <em>Niña</em> was the smallest, at roughly 100 tons; the <em>Pinta</em> was similar; the <em>Santa Maria</em> was the largest at perhaps 120 tons. The ships measured roughly 50–70 feet (15–21 metres) in length.^[source: irving_columbus_full.txt, Book III, Ch. I, II]</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Ship</th><th>Type</th><th>Tonnage (approx.)</th><th>Length (approx.)</th><th>Crew</th></tr></thead><tbody><tr><td>Santa Maria</td><td>Nao / Carrack</td><td>100–120 tons</td><td>~60–70 ft (18–21 m)</td><td>~40</td></tr><tr><td>Pinta</td><td>Caravel</td><td>~100 tons</td><td>~55–60 ft (17–18 m)</td><td>~26</td></tr><tr><td>Niña</td><td>Caravel</td><td>~100 tons</td><td>~50–55 ft (15–17 m)</td><td>~20</td></tr></tbody></table></div>
+<hr/>
+<h2 id="construction-materials">Construction Materials<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#construction-materials" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="oak-and-pine">Oak and Pine<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#oak-and-pine" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>European shipbuilders of the 15th century relied primarily on two woods: <strong>oak</strong> for the hull’s structural elements (frames, keel, planking) and <strong>pine</strong> for masts and spars. Oak was tough, durable, and resistant to rot when properly seasoned; it formed the backbone of the ship’s skeleton. Pine was lighter, tall, and straight-grained, ideal for the long, single-piece masts that carried the sails. Irving mentions that the ships were caulked with <strong>oakum</strong> (fibres picked from old ropes, impregnated with tar or pitch) to seal the seams between planks — a process that could be done carelessly or thoroughly, affecting the ship’s seaworthiness. At Palos, the caulkers employed on the vessels “did their work in a careless and imperfect manner” and absconded when ordered to do it over again.^[source: irving_columbus_full.txt, Book II, Ch. IX, p. 5424-5428]</p>
+<h3 id="new-world-timbers">New World Timbers<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#new-world-timbers" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>During the second voyage, Columbus’s men discovered in Cuba tall pines that Irving records as “enough to make masts for the finest ships” and “noble oaks” — a finding that suggested the New World’s vast shipbuilding potential.^[source: irving_columbus_full.txt, Book IV, Ch. X (Cuba exploration), p. 8689-8692]</p>
+<hr/>
+<h2 id="worm-eaten-ships-of-the-fourth-voyage-teredo-navalis">Worm-Eaten Ships of the Fourth Voyage (Teredo Navalis)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#worm-eaten-ships-of-the-fourth-voyage-teredo-navalis" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The fourth voyage (1502–1504) was Columbus’s most disastrous in material terms. The vessels were severely damaged by the <strong>teredo</strong> or <strong>shipworm</strong> (<em>Teredo navalis</em>), a wood-boring marine bivalve mollusc that infests tropical waters. The Caribbean Sea, with its warm temperatures, provided ideal conditions for the teredo, which could render a ship’s hull riddled and unseaworthy within months.</p>
+<p>Irving records of one expedition that “his vessels being nearly destroyed by the teredo, which abounds in those seas, he had great difficulty in reaching Xaragua in Hispaniola, where he lost his two caravels.”^[source: irving_columbus_v3.txt, Book XIV, Ch. II, p. 4129-4132]</p>
+<p>By June 1503, the two remaining caravels of the fourth voyage were in such a state that they could no longer keep the sea. The crews laboured constantly at the pumps, and even baled water out with buckets and kettles, but the leaks continually gained. Columbus made desperately for Jamaica, running the ships ashore at <strong>Port San Gloria</strong> (Don Christopher’s Cove) before they could founder in deep water:</p>
+<blockquote>
+<p>“His ships, reduced to mere wrecks, could no longer keep the sea, and were ready to sink even in port. He ordered them, therefore, to be run aground, within a bow-shot of the shore, and fastened together, side by side. They soon filled with water to the decks. Thatched cabins were then erected at the prow and stern for the accommodation of the crews, and the wreck was placed in the best possible state of defence. Thus castled in the sea.”^[source: irving_columbus_v3.txt, Book XV, Ch. X, p. 8276-8284]</p>
+</blockquote>
+<p>The teredo’s relentless destruction was a constant threat to wooden ships in warm waters. Its larvae burrow into exposed timber, growing into long, worm-like adults that honeycomb the wood with tunnels, weakening the structure until the hull can no longer hold water. The only remedy was frequent careening and sheathing — a practice that would later evolve into copper-bottoming in the late 18th century.</p>
+<hr/>
+<h2 id="careening-and-field-repair">Careening and Field Repair<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#careening-and-field-repair" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Careening</strong> was the standard method for repairing hull damage at sea. A ship was deliberately beached on a suitable shore at high tide, then tipped onto its side by means of cables and tackle so that the crew could:</p>
+<ul>
+<li>Scrape the hull clean of barnacles, seaweed, and marine growth</li>
+<li>Caulk seams with oakum (fibres picked from old rope) and hot pitch or tar</li>
+<li>Replace or patch worm-damaged planking</li>
+<li>Inspect and repair the rudder and sternpost</li>
+</ul>
+<p>Irving describes careening during the second voyage while Columbus’s squadron explored Cuba:</p>
+<blockquote>
+<p>“While awaiting the return of his ambassadors, the Admiral ordered the ships to be careened and repaired.”^[source: irving_columbus_full.txt, Book IV, Ch. IV, p. 8200-8201]</p>
+</blockquote>
+<p>On making a fire to heat the tar for careening, the seamen found that the wood they burned sent forth a powerful odour and, on examining it, declared that it was mastic — a valuable fragrant resin.^[source: irving_columbus_full.txt, Book IV, Ch. IV, p. 8255-8258]</p>
+<p>Field repair was a constant necessity on all four voyages. The <em>Pinta</em>’s rudder, damaged in heavy weather, was temporarily repaired at sea and then replaced at the Canary Islands with a new one built on the spot after no replacement vessel could be found there.^[source: irving_columbus_full.txt, Book III, Ch. I, p. 5767-5773]</p>
+<p>At the mouth of the <strong>Rio Belen</strong> (Bethlehem) on the coast of Veragua (modern Panama) during the fourth voyage, Columbus and his crew conducted field repairs and built a small settlement with houses of wood thatched with palm leaves. One caravel was abandoned there as unseaworthy after being stranded, decayed, and rotting in the river.^[source: irving_columbus_v3.txt, Book XV, Ch. VI, VIII–IX]</p>
+<p>The ultimate repair-in-place was the beaching at San Gloria on Jamaica, described above, where the two wrecked caravels were converted into a habitable fortress that Columbus and his crew inhabited for nearly a year until rescue arrived in June 1504.^[source: irving_columbus_v3.txt, Book XV, Ch. X, p. 8265-8288; Book XVI]</p>
+<hr/>
+<h2 id="the-96-foot-dugout-canoe-measured-in-jamaica">The 96-Foot Dugout Canoe Measured in Jamaica<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#the-96-foot-dugout-canoe-measured-in-jamaica" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>During the second voyage (1494), Columbus explored the island of Jamaica. Irving, drawing on the accounts of the Cura de los Palacios and the <em>Historia del Almirante</em>, records the remarkable indigenous watercraft encountered there:</p>
+<blockquote>
+<p>“Their canoes were better constructed, being ornamented with carving and painting at the bow and stern. Many were of great size, though formed from the trunks of single trees; often from a species of the mahogany. Columbus measured one, which was ninety-six feet long, and eight broad, hollowed out of one of those magnificent trees, which rise like verdant towers amidst the rich forests of the tropics. Every cacique prided himself on possessing a large canoe of the kind, which he seemed to regard as his ship of state.”^[source: irving_columbus_carvill_v2.txt, Book IV (Cuba/Jamaica), p. 477-490]</p>
+</blockquote>
+<p>This dugout canoe — <strong>96 feet (29 metres) long and 8 feet (2.4 metres) wide</strong>, carved from a single mahogany trunk — dwarfs the ships of Columbus’s own fleet. The <em>Niña</em>, by comparison, was only about 50–55 feet long. The canoe could carry a large number of warriors and was clearly intended as a vessel of prestige and war, not mere transport. Irving notes the apparent paradox: the warlike Jamaicans had a more formidable maritime capability than the peaceful people of Puerto Rico, who “possessed very few canoes.”^[source: irving_columbus_carvill_v2.txt, p. 492-500]</p>
+<p>This passage is one of the few places in Irving where the technological achievement of indigenous peoples is explicitly measured and compared to European standards — and the comparison favours the natives.</p>
+<hr/>
+<h2 id="summary">Summary<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#summary" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Aspect</th><th>Key Details</th></tr></thead><tbody><tr><td><strong>Caravel design</strong></td><td>Shallow draught, flexible rig (lateen or square), fast and manoeuvrable</td></tr><tr><td><strong>Lateen rig</strong></td><td>Triangular sail; excellent windward ability; used on <em>Niña</em> originally</td></tr><tr><td><strong>Square rig</strong></td><td>Rectangular sail; best downwind; <em>Niña</em> converted at Canaries</td></tr><tr><td><strong>Carrack/nao design</strong></td><td>Round hull, high freeboard, deep draught, large cargo capacity</td></tr><tr><td><strong>Tonnage</strong></td><td>~100 tons each; ~50–70 ft long</td></tr><tr><td><strong>Construction</strong></td><td>Oak frames and planking; pine masts; oakum and pitch caulking</td></tr><tr><td><strong>Shipworm</strong></td><td><em>Teredo navalis</em> destroyed ships on the fourth voyage</td></tr><tr><td><strong>Careening</strong></td><td>Beaching and tipping ship to clean, caulk, and repair hull</td></tr><tr><td><strong>Dugout canoe</strong></td><td>96 ft × 8 ft, carved from single mahogany trunk, measured in Jamaica</td></tr></tbody></table></div>
+<hr/>
+<hr/>
+<h2 id="gamas-fleet-the-first-india-armada-1497">Gama’s Fleet: The First India Armada (1497)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#gamas-fleet-the-first-india-armada-1497" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Vasco da Gama’s first voyage employed a mixed fleet of four vessels, designed to combine the strengths of different ship types for the unprecedented challenge of the India voyage. The fleet departed Lisbon on July 8, 1497.</p>
+<h3 id="fleet-composition">Fleet Composition<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#fleet-composition" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Ship</th><th>Type</th><th>Tonnage (approx.)</th><th>Captain</th><th>Fate</th></tr></thead><tbody><tr><td><em>São Gabriel</em></td><td>Carrack (nau)</td><td>100–120 tons</td><td>Vasco da Gama (flagship)</td><td>Returned to Lisbon, 1499</td></tr><tr><td><em>São Rafael</em></td><td>Carrack (nau)</td><td>~100 tons</td><td>Paulo da Gama (Vasco’s brother)</td><td>Scuttled near Malindi, 1499</td></tr><tr><td><em>Berrio</em></td><td>Caravel</td><td>~50 tons</td><td>Nicolau Coelho</td><td>Returned to Lisbon, 1499</td></tr><tr><td><em>Unnamed storeship</em></td><td>Supply vessel</td><td>~100 tons</td><td>Gonçalo Nunes</td><td>Burned near Mossel Bay, 1497</td></tr></tbody></table></div>
+<h3 id="carracks-naus-são-gabriel-and-são-rafael">Carracks (Naus): São Gabriel and São Rafael<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#carracks-naus-são-gabriel-and-são-rafael" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The two carracks — <em>São Gabriel</em> (flagship) and <em>São Rafael</em> — were the workhorses of the fleet. Portuguese carracks of this period, called <strong>naus</strong> (from Latin <em>navis</em>, “ship”), were larger, round-hulled vessels built specifically for long ocean voyages. Key design features included:</p>
+<ul>
+<li><strong>Hull</strong>: Broad and capacious, with a high rounded stern and pronounced bow. The round hull provided ample cargo space for provisions (enough for three years) and trade goods, at the cost of speed.</li>
+<li><strong>Rigging</strong>: Square-rigged on the foremast and mainmast, with a lateen sail on the mizzen mast. This was the standard oceangoing rig: the square sails drove the ship before the prevailing winds, while the lateen mizzen helped balance the helm and improved manoeuvrability in variable winds.</li>
+<li><strong>Castles</strong>: High forecastle and aftercastle (sterncastle), providing accommodation, a steering platform, and defensive positions.</li>
+<li><strong>Tonnage</strong>: The <em>São Gabriel</em> was approximately 100–120 tons burden; the <em>São Rafael</em> was somewhat smaller at about 100 tons.</li>
+</ul>
+<p>The carrack’s deep draught and heavy construction made it seaworthy in the Southern Ocean storms that Gama encountered around the Cape of Good Hope.^[source: sea-road-to-the-indies-hart]</p>
+<h3 id="caravel-berrio">Caravel: Berrio<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#caravel-berrio" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The <em>Berrio</em> (sometimes called <em>São Miguel</em>) was a <strong>caravel</strong> of approximately 50 tons — half the size of the carracks. Caravels were smaller, faster, and more manoeuvrable than carracks, with:</p>
+<ul>
+<li><strong>Lateen rig</strong>: Triangular sails on two or three masts, enabling the caravel to sail closer to the wind than square-rigged vessels. This made the <em>Berrio</em> ideal for coastal exploration, entering harbours and navigating shallow waters.</li>
+<li><strong>Shallow draught</strong>: The caravel’s shallow hull allowed it to approach coasts and river mouths that the deeper-draught carracks could not reach.</li>
+<li><strong>Speed</strong>: The <em>Berrio</em> was the fastest vessel in the fleet, frequently used for scouting and dispatch duties.</li>
+</ul>
+<p>The caravel’s smaller size meant it carried less cargo and fewer provisions, but its speed and windward ability made it an essential component of the mixed fleet. Nicolau Coelho, the <em>Berrio</em>’s captain, was the first to return to Lisbon (July 10, 1499), bringing the news of the voyage’s success.^[source: velho_gama_journal.txt]</p>
+<h3 id="storeship">Storeship<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#storeship" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The fourth vessel was a purpose-built <strong>storeship</strong> (a nau or larger transport) carrying additional provisions and trade goods. It was not intended to complete the voyage. After the fleet rounded the Cape of Good Hope, the storeship was stripped of its remaining supplies and burned at Mossel Bay on the South African coast, its crew distributed among the other three vessels. This was standard Portuguese practice on long voyages: a storeship accompanied the fleet through the most dangerous passage, then was sacrificed to reduce the number of hulls that needed to be maintained and manned.^[source: sea-road-to-the-indies-hart]</p>
+<h3 id="tactical-rationale-of-the-mixed-fleet">Tactical Rationale of the Mixed Fleet<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#tactical-rationale-of-the-mixed-fleet" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Da Gama’s fleet design reflected a sophisticated tactical understanding. The mixed composition offered several advantages:</p>
+<ol>
+<li><strong>Redundancy</strong>: If one ship was lost, the others could continue. This proved critical when the <em>São Rafael</em> became too leaky to continue and was scuttled near Malindi on the return voyage.</li>
+<li><strong>Complementary capabilities</strong>: The carracks provided cargo capacity and seakeeping; the caravel provided speed and inshore access.</li>
+<li><strong>Mutual support</strong>: In unknown waters, ships could scout ahead, stand by for rescue, and share navigational information.</li>
+</ol>
+<p>Subrahmanyam notes that the fleet composition was not accidental but derived from Portuguese experience in earlier West African voyages, where the caravel’s inshore capability and the carrack’s ocean-going capacity had been tested separately. Da Gama was the first commander to integrate both types in a single deep-ocean expedition.^[source: career-legend-vasco-da-gama-subrahmanyam]</p>
+<h3 id="comparison-columbuss-fleet-1492-vs-gamas-fleet-1497">Comparison: Columbus’s Fleet (1492) vs. Gama’s Fleet (1497)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#comparison-columbuss-fleet-1492-vs-gamas-fleet-1497" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Aspect</th><th>Columbus (1492)</th><th>Gama (1497)</th></tr></thead><tbody><tr><td><strong>Number of ships</strong></td><td>3</td><td>4 (including storeship)</td></tr><tr><td><strong>Flagship type</strong></td><td>Carrack (Santa Maria, 100–120 tons)</td><td>Carrack (São Gabriel, 100–120 tons)</td></tr><tr><td><strong>Caravels</strong></td><td>2 (Pinta, Niña; ~100 tons each)</td><td>1 (Berrio; ~50 tons)</td></tr><tr><td><strong>Smallest ship</strong></td><td>~50–55 ft (Niña)</td><td>~50 tons (Berrio)</td></tr><tr><td><strong>Storeship</strong></td><td>None</td><td>1 (burned after Cape crossing)</td></tr><tr><td><strong>Primary rig</strong></td><td>Square + lateen mix</td><td>Square + lateen mix</td></tr><tr><td><strong>Voyage length</strong></td><td>~5 months round trip</td><td>~26 months round trip</td></tr></tbody></table></div>
+<p>|---</p>
+<h2 id="the-english-galleon-c-1550-1600">The English Galleon (c. 1550-1600)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#the-english-galleon-c-1550-1600" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="design-evolution">Design Evolution<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#design-evolution" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The galleon evolved from the carrack in the mid-16th century, with a longer, lower, and more streamlined hull. English shipwrights (influenced by John Hawkins as Treasurer of the Navy) lowered the forecastle, reducing windage and improving stability. The length-to-beam ratio increased from about 3:1 (carrack) toward 4:1 (galleon), making faster, more weatherly ships. ^[source: sugden_drake.txt]</p>
+<h3 id="rigging">Rigging<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#rigging" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Galleons carried a square rig on fore and main masts, with a lateen mizzen. They typically had a spritsail under the bowsprit. The rig was similar to the carrack but with refinements — larger main sails, smaller topsails, and improved running rigging. ^[source: sugden_drake.txt]</p>
+<h3 id="armament">Armament<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#armament" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Unlike carracks which carried bombards on the forecastle and poop, galleons mounted broadside batteries of standardized iron cannon along the lower and upper decks. The Revenge (470 tons) carried culverins and demi-culverins that could fire through gunports cut in the hull — a design innovation that enabled the English broadside tactic. ^[source: sugden_drake.txt]</p>
+<h3 id="key-examples">Key Examples<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-examples" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Golden Hind</strong> (ex-Pelican) — Drake’s circumnavigation ship. About 100-150 tons, 18 guns. Originally a merchant galleon, converted for the voyage. Renamed at Port St. Julian in honor of Sir Christopher Hatton’s crest. ~100 feet length overall. ^[source: sugden_drake.txt]</p>
+<p><strong>Revenge</strong> — A purpose-built warship galleon, launched 1577, 470 tons, 40+ guns. Drake’s Armada flagship. Considered the finest English ship of her era. Lower and longer than Spanish equivalents, with much heavier broadside armament. Later became legendary for Grenville’s last stand at Flores (1591). ^[source: sugden_drake.txt]</p>
+<p><strong>Victory</strong> — John Hawkins’s flagship at the Armada. Built in 1560s, rebuilt to Hawkins’s specifications. Carried a heavy broadside and was one of the largest English ships at 800+ tons. ^[source: sugden_drake.txt]</p>
+<h3 id="hawkins-shipbuilding-reforms">Hawkins’ Shipbuilding Reforms<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#hawkins-shipbuilding-reforms" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>As Treasurer of the Navy (1578-1595), John Hawkins transformed English ship design: introduced the race-built galleon (longer, lower, faster), standardized gun calibers, improved the placement of gunports, and oversaw the construction of the fleet that defeated the Armada. His reforms gave England a decisive technological edge over Spain. ^[source: sugden_drake.txt]</p>
+<hr/>
+<h2 id="relationship-to-other-entities">Relationship to Other Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#relationship-to-other-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../entities/santa-maria-pinta-nina" class="internal alias" data-slug="entities/santa-maria-pinta-nina">Santa Maria, Pinta, Nina</a> — The three ships of the first voyage, detailed descriptions of each vessel</li>
+<li><a href="../entities/christopher-columbus" class="internal alias" data-slug="entities/christopher-columbus">Christopher Columbus</a> — Commander of all four voyages; used these ship types throughout</li>
+<li><a href="../entities/jamaica-columbus" class="internal alias" data-slug="entities/jamaica-columbus">Jamaica Columbus</a> — Site of the ship stranding, the 96-foot canoe measurement, and the year-long encampment on the beached wrecks</li>
+<li><a href="../entities/hispaniola" class="internal alias" data-slug="entities/hispaniola">Hispaniola</a> — Destination where the <em>Santa Maria</em> was wrecked and its timbers used for La Navidad</li>
+<li><a href="../entities/la-navidad-la-isabela" class="internal alias" data-slug="entities/la-navidad-la-isabela">La Navidad La Isabela</a> — The first settlement, built from the <em>Santa Maria</em>’s timbers</li>
+<li><a href="../concepts/maritime-technology-navigation" class="internal alias" data-slug="concepts/maritime-technology-navigation">Maritime Technology and Navigation</a> — Astrolabe, compass, navigation techniques used aboard these vessels</li>
+<li><a href="../entities/martin-alonso-pinzon" class="internal alias" data-slug="entities/martin-alonso-pinzon">Martin Alonso Pinzon</a> — Captain of the <em>Pinta</em></li>
+<li><a href="../entities/palos-la-rabida" class="internal alias" data-slug="entities/palos-la-rabida">Palos La Rabida</a> — Port of departure where the ships were fitted out</li>
+<li><a href="../sources/irving-columbus" class="internal" data-slug="sources/irving-columbus">irving-columbus</a> — Primary source covering ship descriptions in Books I, II, III, IV, V</li>
+<li><a href="../sources/irving-columbus-vol2" class="internal" data-slug="sources/irving-columbus-vol2">irving-columbus-vol2</a> — Primary source covering second voyage, Jamaica, and the dugout canoe</li>
+<li><a href="../sources/irving-columbus-vol3" class="internal" data-slug="sources/irving-columbus-vol3">irving-columbus-vol3</a> — Primary source covering fourth voyage, teredo damage, and the stranding at San Gloria</li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-7" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#ship-types-rigging-and-construction" data-for="ship-types-rigging-and-construction">Ship Types, Rigging, and Construction</a></li><li class="depth-1"><a href="#caravel-design" data-for="caravel-design">Caravel Design</a></li><li class="depth-2"><a href="#lateen-rig-windward-ability" data-for="lateen-rig-windward-ability">Lateen Rig: Windward Ability</a></li><li class="depth-2"><a href="#square-rig-downwind-speed" data-for="square-rig-downwind-speed">Square Rig: Downwind Speed</a></li><li class="depth-2"><a href="#the-niña-re-rigged-at-the-canary-islands" data-for="the-niña-re-rigged-at-the-canary-islands">The Niña Re-rigged at the Canary Islands</a></li><li class="depth-1"><a href="#carrack--nao-design" data-for="carrack--nao-design">Carrack / Nao Design</a></li><li class="depth-2"><a href="#hull-shape-and-freeboard" data-for="hull-shape-and-freeboard">Hull Shape and Freeboard</a></li><li class="depth-2"><a href="#forecastle-and-aftercastle" data-for="forecastle-and-aftercastle">Forecastle and Aftercastle</a></li><li class="depth-2"><a href="#square-rig-on-fore-and-main-lateen-mizzen" data-for="square-rig-on-fore-and-main-lateen-mizzen">Square Rig on Fore and Main, Lateen Mizzen</a></li><li class="depth-1"><a href="#differences-between-caravel-and-carrack" data-for="differences-between-caravel-and-carrack">Differences Between Caravel and Carrack</a></li><li class="depth-1"><a href="#tonnage" data-for="tonnage">Tonnage</a></li><li class="depth-1"><a href="#construction-materials" data-for="construction-materials">Construction Materials</a></li><li class="depth-2"><a href="#oak-and-pine" data-for="oak-and-pine">Oak and Pine</a></li><li class="depth-2"><a href="#new-world-timbers" data-for="new-world-timbers">New World Timbers</a></li><li class="depth-1"><a href="#worm-eaten-ships-of-the-fourth-voyage-teredo-navalis" data-for="worm-eaten-ships-of-the-fourth-voyage-teredo-navalis">Worm-Eaten Ships of the Fourth Voyage (Teredo Navalis)</a></li><li class="depth-1"><a href="#careening-and-field-repair" data-for="careening-and-field-repair">Careening and Field Repair</a></li><li class="depth-1"><a href="#the-96-foot-dugout-canoe-measured-in-jamaica" data-for="the-96-foot-dugout-canoe-measured-in-jamaica">The 96-Foot Dugout Canoe Measured in Jamaica</a></li><li class="depth-1"><a href="#summary" data-for="summary">Summary</a></li><li class="depth-1"><a href="#gamas-fleet-the-first-india-armada-1497" data-for="gamas-fleet-the-first-india-armada-1497">Gama’s Fleet: The First India Armada (1497)</a></li><li class="depth-2"><a href="#fleet-composition" data-for="fleet-composition">Fleet Composition</a></li><li class="depth-2"><a href="#carracks-naus-são-gabriel-and-são-rafael" data-for="carracks-naus-são-gabriel-and-são-rafael">Carracks (Naus): São Gabriel and São Rafael</a></li><li class="depth-2"><a href="#caravel-berrio" data-for="caravel-berrio">Caravel: Berrio</a></li><li class="depth-2"><a href="#storeship" data-for="storeship">Storeship</a></li><li class="depth-2"><a href="#tactical-rationale-of-the-mixed-fleet" data-for="tactical-rationale-of-the-mixed-fleet">Tactical Rationale of the Mixed Fleet</a></li><li class="depth-2"><a href="#comparison-columbuss-fleet-1492-vs-gamas-fleet-1497" data-for="comparison-columbuss-fleet-1492-vs-gamas-fleet-1497">Comparison: Columbus’s Fleet (1492) vs. Gama’s Fleet (1497)</a></li><li class="depth-1"><a href="#the-english-galleon-c-1550-1600" data-for="the-english-galleon-c-1550-1600">The English Galleon (c. 1550-1600)</a></li><li class="depth-2"><a href="#design-evolution" data-for="design-evolution">Design Evolution</a></li><li class="depth-2"><a href="#rigging" data-for="rigging">Rigging</a></li><li class="depth-2"><a href="#armament" data-for="armament">Armament</a></li><li class="depth-2"><a href="#key-examples" data-for="key-examples">Key Examples</a></li><li class="depth-2"><a href="#hawkins-shipbuilding-reforms" data-for="hawkins-shipbuilding-reforms">Hawkins’ Shipbuilding Reforms</a></li><li class="depth-1"><a href="#relationship-to-other-entities" data-for="relationship-to-other-entities">Relationship to Other Entities</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../concepts/carreira-da-india" class="internal">Carreira da Índia (The India Run)</a></li><li><a href="../concepts/estado-da-india" class="internal">Estado da Índia (Portuguese State of India)</a></li><li><a href="../concepts/maritime-technology-navigation" class="internal">Maritime Technology and Navigation</a></li><li><a href="../concepts/naval-artillery-age-of-discovery" class="internal">Naval Artillery in the Age of Discovery</a></li><li><a href="../concepts/navigational-logbooks" class="internal">Navigational Logbooks in the Age of Discovery</a></li><li><a href="../concepts/spice-trade-line-of-demarcation" class="internal">The Spice Trade and the Line of Demarcation</a></li><li><a href="../" class="internal">index</a></li><li><a href="../sources/chapman-traite-construction-vaisseaux" class="internal">Traité de la Construction des Vaisseaux — Frederik Henrik af Chapman</a></li><li><a href="../sources/witsen-scheepsbouw" class="internal">Aeloude en Hedendaegsche Scheeps-Bouw en Bestier — Nicolaas Witsen</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/rajeshb62/colombus-maritime-adventurers-wiki">Source Repo</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>
